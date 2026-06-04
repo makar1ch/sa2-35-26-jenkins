@@ -1,6 +1,6 @@
 FROM --platform=linux/amd64 jenkins/jenkins:latest
 
-LABEL maintainer="pluhin@gmail.com"
+LABEL maintainer="mbl.makarov@gmail.com"
 
 ARG DEBIAN_FRONTEND=noninteractive
 ENV JENKINS_UC_DOWNLOAD="https://mirror.yandex.ru/mirrors/jenkins"
